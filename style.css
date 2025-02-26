@@ -1,0 +1,13 @@
+.container{
+    height: 528px;
+    width: 528px;
+    border: 1px black solid;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
