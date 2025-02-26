@@ -23,7 +23,7 @@ function createGrid(boxNum = 16){
         
         
         box.addEventListener("mouseover", () => {
-            box.setAttribute(`style`, ` width: ${h - 2}px; background: grey; height: ${h - 2}px; border: 1px black solid`)     
+            box.setAttribute(`style`, ` width: ${h - 2}px; background: orange; height: ${h - 2}px; border: 1px black solid`)     
         })
         container.appendChild(box);
     }
