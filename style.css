@@ -1,13 +1,49 @@
+body{
+    background-color: rgb(208, 248, 248);
+}
+
 .container{
     height: 528px;
     width: 528px;
     border: 1px black solid;
-    
+    background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    margin: 0px 120px;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:190px;
 }
 
 .wrapper{
     display: flex;
     justify-content: center;
+    
+    
+
 }
+
+.rstButton{
+    margin: 0px 172px ;
+    margin-right: 190px;
+    width: 120px;
+    height: 48px;
+    font-size: larger;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+    border-radius: 6px;
+    border: none ;
+    background-color: rgb(187, 117, 253);
+    font-weight: bolder;
+}
+
